@@ -74,6 +74,25 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+/* Toggle Button Style */
+.dark-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 8px;
+    transition: transform 0.2s;
+}
+
+.dark-toggle-btn:hover {
+    transform: scale(1.2);
+}
 
 a {
   color: var(--accent-color);
